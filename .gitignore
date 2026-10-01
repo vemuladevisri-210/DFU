@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large model files exceeding GitHub 100MB limit
+dfu_hybrid_model.keras
+dfu_model.h5
+
+# Generated reports & temporary files
+DFU_Report.pdf
+reports/
+
+# Environments and IDE settings
+.vscode/
+.idea/
+venv/
+env/
+.env
+
+# Streamlit local configuration / secrets
+.streamlit/secrets.toml
